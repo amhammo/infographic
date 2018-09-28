@@ -7,7 +7,7 @@ body {
 
 /* All page elements will be inside this container block, which is also centered 2: top/bottom and left/right*/
 main {
-  width: 50%;
+  width: 70%;
   margin: 0 auto; 
   color: #ffffff;
 }
