@@ -1,0 +1,91 @@
+/* CSS file- I changed the color of the background and the text.  */
+
+body {
+  background-color: #900C3F;
+  color: #ffffff;
+}
+
+/* All page elements will be inside this container block, which is also centered 2: top/bottom and left/right*/
+main {
+  width: 50%;
+  margin: 0 auto; 
+  color: #ffffff;
+}
+
+/* All text within the header block will be justified- I prefer this look to centered */
+header {
+  text-align: justify;
+  color: #ffffff;
+}
+
+/* each new section will clear both columns and go again directly beneath */
+section {
+  clear: both;
+}
+
+/* used for text blurb, "floated" to the right of the aside witht the icon image */
+article {
+  float: right;
+  width: 79%;
+  color: #ffffff;
+}
+
+/* used for icon image, "floated" to the left of the article with the text blurb */
+aside {
+  float: left;
+  width: 20%;
+  color: #ffffff;
+}
+
+/* Headline styles- I changed the fonts in these */
+h1 {
+  font-family: Courier New;
+  font-weight: bold;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+/* Subhead styles */
+h2 {
+  font-family: Courier New;
+  color: #ffffff;
+}
+
+/* Article headline styles */
+h3 {
+  font-family: Courier New;
+  padding: 0 20px;
+  color: #ffffff;
+}
+
+/* Footer style */
+h4 {
+  font-family: Courier New;
+  color: #ffffff;
+}
+
+/* Text styles for all paragraphs */
+p {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Courier New;
+  vertical-align: top;
+  padding: 0 20px;
+}
+/* I created this span to try a new tag, and used it in my main html file */
+span {
+  
+    float: left;
+    width: 0.7em;
+    font-size: 250%;
+    font-family: algerian, courier;
+    line-height: 80%;
+    font-weight: bold;
+}
+
+
+/* Note that the footer row is also cleared beneath both columns */
+footer {
+  clear: both;
+  text-align: center;
+}
